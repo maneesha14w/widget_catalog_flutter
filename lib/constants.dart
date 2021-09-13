@@ -13,6 +13,13 @@ import 'package:widget_catalog_flutter/screens/twenty/clip_path.dart';
 import 'package:widget_catalog_flutter/screens/twenty/clip_rect.dart';
 import 'package:widget_catalog_flutter/screens/twenty/constrained_box.dart';
 import 'package:widget_catalog_flutter/screens/twenty/cupertino_action_sheet.dart';
+import 'package:widget_catalog_flutter/screens/twenty/cupertino_activity_indicator.dart';
+import 'package:widget_catalog_flutter/screens/twenty/cupertino_alert_dialog.dart';
+import 'package:widget_catalog_flutter/screens/twenty/cupertino_button.dart';
+import 'package:widget_catalog_flutter/screens/twenty/cupertino_context_menu.dart';
+import 'package:widget_catalog_flutter/screens/twenty/cupertino_date_picker.dart';
+
+//widgetB = Scaffold(body: SafeArea(child: Container( child: ,),),);
 
 const kPinkColour = Color(0xFFEB1555);
 const kLighterColour = Color(0xFF1D1F33);
@@ -35,12 +42,12 @@ final List<Widget> kWidgetNames = [
   ClipRectWidget(),
   ConstrainedBoxWidget(),
   CupertinoActionSheetWidget(),
-  // CupertinoActivityIndicatorWidget(),
-  // CupertinoAlertDialogWidget(),
-  // CupertinoButtonWidget(),
-  // CupertinoContextMenuWidget(),
-  // CupertinoDatePickerWidget(),
-  // CupertinoDialogActionWidget(),
+  CupertinoActivityIndicatorWidget(),
+  CupertinoAlertDialogWidget(),
+  CupertinoButtonWidget(),
+  CupertinoContextMenuWidget(),
+  CupertinoDatePickerWidget(),
+  CupertinoDialogActionWidget(),
   // CupertinoFullscreenDialogTransitionWidget(),
   // CupertinoNavigationBarWidget(),
   // CupertinoPageScaffoldWidget(),
